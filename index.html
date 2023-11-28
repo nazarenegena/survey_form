@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>App Survey</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header-div">
+            <header class="header">App Survey</header>
+            <p class="header-paragraph">This is a basic survey form to find out what your favorite programming
+                language </p>
+        </div>
+        <form method="post" class="form">
+            <div class="first-name">
+                <label for="first-name">First Name</label>
+                <input id="first_name" name="First Name" type="text" placeholder="your first name" class="input" />
+            </div>
+            <div class="last-name">
+                <label for="last_name">Last Name</label>
+                <input id="last_name" name="Last Name" type="text" placeholder="your last name" class="input" />
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input id="email" name="email_address" type="email" placeholder="your email address" class="input" />
+            </div>
+            <div class="user">
+                <select id="user">
+                    <option value="0">---Choose User---</option>
+                    <option value="student">Student</option>
+                    <option value="faculty">Faculty</option>
+                </select>
+            </div>
+            <fieldset class="fieldset">
+                <legend>Pick your favorite languages </legend>
+                <div class="languages">
+                    <div>
+                        <input id="javascript" name="javascript" type="checkbox" />
+                        <label for="javascript">Javascript</label>
+                    </div>
+                    <div>
+                        <input id="python" name="python" type="checkbox" />
+                        <label for="python">Python</label>
+                    </div>
+                    <div>
+                        <input id="java" name="java" type="checkbox" />
+                        <label for="java">Java</label>
+                    </div>
+                    <div>
+                        <input id="kotlin" name="kotlin" type="checkbox" />
+                        <label for="kotlin">Kotlin</label>
+                    </div>
+                    <div>
+                        <input id="php" name="php" type="checkbox" />
+                        <label for="php">PHP</label>
+                    </div>
+                    <div>
+                        <input id="C" name="C" type="checkbox" />
+                        <label for="C">C</label>
+                    </div>
+                    <div>
+                        <input id="C#" name="C#" type="checkbox" />
+                        <label for="C#">C#</label>
+                    </div>
+                    <div>
+                        <input id="swift" name="swift" type="checkbox" />
+                        <label for="swift">Swift</label>
+                    </div>
+                    <div>
+                        <input id="ruby" name="ruby" type="checkbox" />
+                        <label for="ruby">Ruby</label>
+                    </div>
+                    <div>
+                        <input id="rust" name="rust" type="checkbox" />
+                        <label for="rust">Rust</label>
+                    </div>
+                    <div>
+                        <input id="perl" name="perl" type="checkbox" />
+                        <label for="perl">Perl</label>
+                    </div>
+                    <div>
+                        <input id="Go" name="Go" type="checkbox" />
+                        <label for="Go">Go</label>
+                    </div>
+                </div>
+
+            </fieldset>
+            <button type="submit" value="submit" class="submit">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
