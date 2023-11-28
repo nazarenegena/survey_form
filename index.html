@@ -31,65 +31,86 @@
             </div>
             <div class="user">
                 <select id="user">
-                    <option value="0">---Choose User---</option>
+                    <option value="0">---Status---</option>
                     <option value="student">Student</option>
                     <option value="faculty">Faculty</option>
+                    <option value="faculty">Guest</option>
                 </select>
             </div>
             <fieldset class="fieldset">
                 <legend>Pick your favorite languages </legend>
                 <div class="languages">
                     <div>
-                        <input id="javascript" name="javascript" type="checkbox" />
+                        <input id="javascript" name="language" type="radio" checked />
                         <label for="javascript">Javascript</label>
                     </div>
                     <div>
-                        <input id="python" name="python" type="checkbox" />
+                        <input id="python" name="language" type="radio" />
                         <label for="python">Python</label>
                     </div>
                     <div>
-                        <input id="java" name="java" type="checkbox" />
+                        <input id="java" name="language" type="radio" />
                         <label for="java">Java</label>
                     </div>
                     <div>
-                        <input id="kotlin" name="kotlin" type="checkbox" />
+                        <input id="kotlin" name="language" type="radio" />
                         <label for="kotlin">Kotlin</label>
                     </div>
                     <div>
-                        <input id="php" name="php" type="checkbox" />
+                        <input id="php" name="language" type="radio" />
                         <label for="php">PHP</label>
                     </div>
                     <div>
-                        <input id="C" name="C" type="checkbox" />
+                        <input id="C" name="language" type="radio" />
                         <label for="C">C</label>
                     </div>
                     <div>
-                        <input id="C#" name="C#" type="checkbox" />
+                        <input id="C#" name="language" type="radio" />
                         <label for="C#">C#</label>
                     </div>
                     <div>
-                        <input id="swift" name="swift" type="checkbox" />
+                        <input id="swift" name="language" type="radio" />
                         <label for="swift">Swift</label>
                     </div>
                     <div>
-                        <input id="ruby" name="ruby" type="checkbox" />
+                        <input id="ruby" name="language" type="radio" />
                         <label for="ruby">Ruby</label>
                     </div>
                     <div>
-                        <input id="rust" name="rust" type="checkbox" />
+                        <input id="rust" name="language" type="radio" />
                         <label for="rust">Rust</label>
                     </div>
                     <div>
-                        <input id="perl" name="perl" type="checkbox" />
+                        <input id="perl" name="language" type="radio" />
                         <label for="perl">Perl</label>
                     </div>
                     <div>
-                        <input id="Go" name="Go" type="checkbox" />
+                        <input id="Go" name="language" type="radio" />
                         <label for="Go">Go</label>
                     </div>
                 </div>
 
             </fieldset>
+            <div class="comments">
+                <label>Comments</label>
+                <input type="text" />
+            </div>
+            <div class="date">
+                <label>current date</label>
+                <input type="date" />
+            </div>
+            <div class="conditions">
+                <div class="newsletter">
+                    <input type="checkbox" />
+
+                    <label>Sign Up for newsletter</label>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" />
+
+                    <label>Agree to terms and conditions</label>
+                </div>
+            </div>
             <button type="submit" value="submit" class="submit">Submit</button>
         </form>
 
